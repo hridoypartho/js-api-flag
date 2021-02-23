@@ -7,15 +7,17 @@
     text-align: center; 
     &__card{
         background-color: white;
-        padding: 20px 30px;
+        padding: 50px 30px;
         border-radius: 20px;
+        text-align: center;
         &_body{
             border-bottom: 1px solid #dddd;
             img{
                 margin-bottom: 20px;
+                max-width: 100%;
             }
             h1{
-                margin-bottom: 20px;
+                margin-bottom: 10px;
             }
             p{
                 margin-bottom: 20px;
