@@ -1,0 +1,1 @@
+const mainContent = document.querySelector('.project__card');

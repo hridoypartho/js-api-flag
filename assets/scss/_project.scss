@@ -1,0 +1,31 @@
+ .project{
+     background: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; 
+    &__card{
+        background-color: white;
+        padding: 20px 30px;
+        border-radius: 20px;
+        &_body{
+            border-bottom: 1px solid #dddd;
+            img{
+                margin-bottom: 20px;
+            }
+            h1{
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+        }
+        &_footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+    }
+}
